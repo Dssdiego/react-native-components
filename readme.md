@@ -6,7 +6,9 @@
 | Image| rnImage|
 | ListView| rnListView|
 | ScrollView | rnScrollView |
-| | |
+| Text| rnText |
+| TextInput | rnTextInput |
+| View| rnView|
 
 # Functions
 
