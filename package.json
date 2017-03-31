@@ -1,0 +1,24 @@
+{
+  "name": "react-native-components",
+  "version": "0.0.0",
+  "description": "A new way of writing React Native Code.",
+  "keywords": [
+    "react-native",
+    "atom-react-native",
+    "snippets",
+    "components",
+    "react-components"
+  ],
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dssdiego/react-native-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dssdiego/react-native-components/issues"
+  },
+  "license": "MIT"
+}
