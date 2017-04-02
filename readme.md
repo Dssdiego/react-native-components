@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Dssdiego/react-native-components.svg?branch=master)](https://travis-ci.org/Dssdiego/react-native-components)
 
-Read this in another languages: :fr: [Français](), :es: [Spañol](), ![pt_br](https://github.com/Dssdiego/react-native-components/blob/master/img/brazil-flag.png =100x20) [Português (BR)]()
+Read this in another languages: :fr: [Français](), :es: [Spañol](), ![pt_br](https://github.com/Dssdiego/react-native-components/blob/master/img/flag-brasil.png) [Português (BR)]()
 
 For a full
 
