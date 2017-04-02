@@ -1,12 +1,12 @@
 [![Build Status](https://travis-ci.org/Dssdiego/react-native-components.svg?branch=master)](https://travis-ci.org/Dssdiego/react-native-components)
 
-Read this in another languages: :fr: [Français](), :es: [Spañol](), ![pt_br](https://github.com/Dssdiego/react-native-components/blob/master/img/flag-brasil.png) [Português (BR)]()
+Read this in another languages: :fr: [Français](), :es: [Spañol](), ![pt_br](https://github.com/Dssdiego/react-native-components/blob/master/img/flag-brasil.png) [Português (BR)](readme_ptbr.md)
 
 For a full
 
 # Components
 
-| Components    | Trigger     |
+| Components    | Trigger (TAB)  |
 | :-------------| :------------- |
 | Button| rnButton       |
 | Image| rnImage|
@@ -18,7 +18,7 @@ For a full
 
 # Functions
 
-| Functions   | Trigger             |
+| Functions   | Trigger (TAB)      |
 | :---------  | :-------------      |
 | Constructor | rnConstructor       |
 | Render      | rnRender            |
@@ -26,6 +26,6 @@ For a full
 
 # Aux of Components
 
-| Aux                | Trigger              |
+| Aux                | Trigger (TAB)       |
 | :-------------     | :------------------- |
 | ListViewDataSource | rnListViewDataSource |
