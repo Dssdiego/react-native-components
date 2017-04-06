@@ -1,80 +1,126 @@
 '.source.js':
+
+  # API's
+  'Firebase Config':
+    'prefix': 'raFirebase'
+    'body': '''const firebaseConfig = {
+                 apiKey: '<your-api-key>',
+                 authDomain: '<your-auth-domain>',
+                 databaseURL: '<yout-database-url>',
+                 storageBucket: '<your-storage-bucket>',
+               };
+               const firebaseApp = firebase.initializeApp(firebaseConfig);'''
+
+  # Components
   'Button':
-    'prefix': 'rnButton'
+    'prefix': 'rcButton'
     'body': '''<Button
                  onPress={onButtonPress}
                  title="${1:YourTitle}"
                  color="#1aad5b"
                  accessibilityLabel="YourLabelHere"
                />'''
+  'Image':
+    'prefix': 'rcImage'
+    'body': '''<Image source={${1:require('./img/image.png')}}/>'''
+  'ListView':
+    'prefix': 'rcListView'
+    'body': '''<ListView
+                dataSource={this.state.${1:dataSource}}
+                renderRow={(rowData) => <Text>{rowData}</Text>}
+                renderSeparator={(sectionId, rowId) => <View key={rowId} style={styles.separator} />}
+              />'''
+  'ScrollView':
+    'prefix': 'rcScrollView'
+    'body': '''<ScrollView>
+                 ${1:}
+               </ScrollView>'''
+  'Text':
+    'prefix': 'rcText'
+    'body': '''<Text>${1:YourText}</Text>'''
+  'TextInput':
+    'prefix': 'rcTextInput'
+    'body': '''<Text>${1:YourText}</Text>'''
+  'View':
+    'prefix': 'rcView'
+    'body': '''<View>
+                 ${1:}
+               </View>'''
+
+  # Functions
   'Constructor':
-    'prefix': 'rnConstructor'
+    'prefix': 'rfConstructor'
     'body': '''constructor() {
                 super();
                 ${1:}
               }'''
-  'Image':
-    'prefix': 'rnImage'
-    'body': '''<Image source={${1:require('./img/image.png')}}/>'''
-  'ListView':
-    'prefix': 'rnListView'
-    'body': '''<ListView
-                dataSource={this.state.${1:dataSource}}
-                renderRow={(rowData) => <Text>{rowData}</Text>}
-              />'''
-  'ListView DataSource':
-    'prefix': 'rnListViewDataSource'
-    'body': '''const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-               this.state = {
-                 ${1:dataSource}: ds.cloneWithRows(['row 1', 'row 2']),
-               };'''
-  'Props':
-    'prefix': 'rnProps'
-    'body': '''{this.props.${1:myProp}}'''
   'Render':
-    'prefix': 'rnRender'
+    'prefix': 'rfRender'
     'body': '''render() {
                  return (
                    ${1:}
                  );
                }'''
   'Register':
-    'prefix': 'rnRegisterComponent'
+    'prefix': 'rfRegisterComponent'
     'body': '''AppRegistry.registerComponent('${1:myApp}', () => ${1:myApp});'''
-  'ScrollView':
-    'prefix': 'rnScrollView'
-    'body': '''<ScrollView>
-                 ${1:}
-               </ScrollView>'''
+
+
+  # State
   'State':
-    'prefix': 'rnState'
+    'prefix': 'rsThisState'
     'body': '''this.state = ${1:myValue};'''
   'Set State':
-    'prefix': 'rnSetState'
+    'prefix': 'rsSetState'
     'body': '''this.setState({ ${1:myValue} });'''
-  'Style':
-    'prefix': 'rnStyle'
+
+  # Props
+  'this.props.myProp':
+    'prefix': 'rpThisProps'
+    'body': '''{this.props.${1:myProp}}'''
+
+  # Imports
+  'Import Firebase':
+    'prefix': 'riFirebase'
+    'body': '''import * as firebase from 'firebase';'''
+  'Import React Native':
+    'prefix': 'riReactNative'
+    'body': '''import {
+                 View,
+                 StyleSheet,
+               } from 'react-native';'''
+  'Import React':
+    'prefix': 'riReact'
+    'body': '''import React, { Component } from 'react';'''
+
+  # Aux
+  'ListView DataSource':
+    'prefix': 'rxListViewDataSource'
+    'body': '''const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
+               this.state = {
+                 ${1:dataSource}: ds.cloneWithRows(['row 1', 'row 2']),
+               };'''
+  'Separator Style':
+    'prefix': 'rxSeparatorStyle'
+    'body': '''separator: {
+                 flex: 1,
+                 height: 1,
+                 backgroundColor: 'lightgray',
+               },'''
+
+  # Styles
+  'style={styles.myStyle}':
+    'prefix': 'rtStyleAsign'
     'body': '''style={styles.${1:myStyle}}'''
-  'Style Create':
-    'prefix': 'rnStyleCreate'
+  'myStyle Create':
+    'prefix': 'rtStyleCreate'
     'body': '''myStyle: {
-                ${1:}
+                 ${1:}
                }'''
   'StyleSheet Create':
-    'prefix': 'rnStyleSheet'
+    'prefix': 'rtStyleSheetCreate'
     'body': '''const styles = StyleSheet.create({
                  container: {
                    flex: 1,
                  },
                });'''
-  'Text':
-    'prefix': 'rnText'
-    'body': '''<Text>${1:YourText}</Text>'''
-  'TextInput':
-    'prefix': 'rnTextInput'
-    'body': '''<Text>${1:YourText}</Text>'''
-  'View':
-    'prefix': 'rnView'
-    'body': '''<View>
-                 ${1:}
-               </View>'''
