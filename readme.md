@@ -1,8 +1,6 @@
-[![Build Status](https://travis-ci.org/Dssdiego/react-native-components.svg?branch=master)](https://travis-ci.org/Dssdiego/react-native-components)
+A new way of writing React Native Code.
 
-Read this in another languages: :fr: [Français](), :es: [Spañol](), ![pt_br](https://github.com/Dssdiego/react-native-components/blob/master/img/flag-brasil.png) [Português (BR)](readme_ptbr.md)
-
-For a full
+Read this in another languages: :fr: [Français](), :es: [Spañol](), [Português (BR)](readme_ptbr.md)
 
 # API's
 

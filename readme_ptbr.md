@@ -1,31 +1,65 @@
-[![Build Status](https://travis-ci.org/Dssdiego/react-native-components.svg?branch=master)](https://travis-ci.org/Dssdiego/react-native-components)
+Um novo jeito de escrever Apps usando React Native.
 
 Leia em outras línguas: :fr: [Francês](), :es: [Espanhol](), :us: [Inglês](readme.md)
 
-# Componentes
+# API's
 
-| Componentes    | Gatilho (TAB) |
-| :-------------| :------------- |
-| Button| rnButton       |
-| Image| rnImage|
-| ListView| rnListView|
-| ScrollView | rnScrollView |
-| Text| rnText |
-| TextInput | rnTextInput |
-| View| rnView|
+| API       | Atalho       |
+| :-------- | :------------ |
+| Firebase  | r*a*Firebase  |
 
-# Funções
+# Components
 
-| Functions   | Gatilho (TAB)       |
-| :---------  | :-------------      |
-| Constructor | rnConstructor       |
-| Render      | rnRender            |
-| Register    | rnRegisterComponent |
+| Components     | Atalho        |
+| :------------- | :------------  |
+| Button         | r*c*Button     |
+| Image          | r*c*Image      |
+| ListView       | r*c*ListView   |
+| ScrollView     | r*c*ScrollView |
+| Text           | r*c*Text       |
+| TextInput      | r*c*TextInput  |
+| View           | r*c*View       |
 
-# Aux. dos Componentes
+# Functions
 
-| Aux                | Gatilho (TAB)        |
-| :-------------     | :------------------- |
-| ListViewDataSource | rnListViewDataSource |
+| Functions   | Atalho               |
+| :---------  | :-------------        |
+| Constructor | r*f*Constructor       |
+| Render      | r*f*Render            |
+| Register    | r*f*RegisterComponent |
 
-Para uma melhor experiência, use a biblioteca
+# State
+
+| State                    | Atalho       |
+| :---------               | :----------   |
+| this.state={myValue}     | r*s*ThisState |
+| this.setState({myValue}) | r*s*SetState  |
+
+# Props
+
+| Prop              | Atalho       |
+| :---------        | :-------      |
+| this.props.myProp | r*p*ThisProps |
+
+# Imports
+
+| Imports      | Atalho         |
+| :---------   | :-------------  |
+| React        | r*i*React       |
+| React Native | r*i*ReactNative |
+| Firebase     | r*i*Firebase    |
+
+# Aux of Components
+
+| Aux                | Atalho                |
+| :-------------     | :-------------------   |
+| ListViewDataSource | r*x*ListViewDataSource |
+| SeparatorStyle     | r*x*SeparatorStyle     |
+
+# Styles
+
+| Style                  | Atalho                |
+| :-------------         | :-------------------   |
+| style={styles.myStyle} | r*t*StyleAsign         |
+| Style Create           | r*t*StyleCreate        |
+| StyleSheet Create      | r*t*StyleSheetCreate   |
